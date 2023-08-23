@@ -52,9 +52,9 @@ npm test
 ## User Routes
 Here are the available user-related routes:
 
-`GET /users`: Get all users.
-`POST /login`: Log in a user.
-`POST /users/favorites`: Add a favorite Pokémon for a user.
-`GET /users/favorites/:userId`: Get favorite Pokémon for a specific user.
-`POST /register`: Register a new user.
-`GET /verify`: Verify a user's email.
+- `GET /users`: Get all users.
+- `POST /login`: Log in a user.
+- `POST /users/favorites`: Add a favorite Pokémon for a user.
+- `GET /users/favorites/:userId`: Get favorite Pokémon for a specific user.
+- `POST /register`: Register a new user.
+- `GET /verify`: Verify a user's email.
