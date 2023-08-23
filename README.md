@@ -1,6 +1,3 @@
-Certainly! Here's a general README.md file that explains how to run both the backend and frontend, and provides a step-by-step guide to the functionality of the application:
-
-```markdown
 # Waco Node.js Technical Test
 
 This project consists of a backend and frontend that allow users to log in, view Pokémon, and add them to a list of favorite Pokémon.
