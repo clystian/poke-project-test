@@ -54,10 +54,6 @@ Once both the backend and frontend are running, you can use the application by f
 - Click the "Logout" button located in the profile section.
 - You will be logged out and redirected to the login screen.
 
-
-Certainly! Here's a section that explains how to create a user using both Postman and cURL:
-
-```markdown
 ### Create User via API
 
 You can create a new user by making a POST request to the `/register` endpoint. Below are the instructions for both Postman and cURL.
@@ -86,9 +82,6 @@ You can also create a user using the cURL command in the terminal. Here's an exa
 curl -X POST -H "Content-Type: application/json" -d '{"username": "newuser", "email": "newuser@example.com", "password": "password123"}' http://localhost:3000/register
 ```
 
-Certainly! Here's a section that explains how to verify a user using the link sent to their email, as well as how to manually verify the user using both Postman and cURL:
-
-```markdown
 ### Verify User
 
 After creating a user, a verification link will be sent to the provided email address. The user can be verified by clicking on the link or by manually making a GET request to the `/verify` endpoint with the token. Below are the instructions for both manual methods.
